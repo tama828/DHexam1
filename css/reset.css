@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+/* ────────────────── Reset CSS */
+
+html, body, div, h1, h2, h3, h4, h5, h6,
+p, address, a, img,
+ul, ol, li, dl, dt, dd,
+table, th, td,
+form, fieldset {
+list-style: none;
+margin: 0;
+padding: 0;
+text-decoration: none;
+font-size: 100%;
+font-family: Tahoma, "メイリオ", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+
+
+
+
+
+
+

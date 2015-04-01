@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Webサイト構築演習1 最終課題・自己紹介サイト</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
+</script>
+
+</head>
+
+<body>
+<div id="header">
+<img id="logo" src="img/logo.gif" alt="logo">
+<h2>Webサイト構築演習Ⅰ・最終課題</h2>
+<h1>うめき ゆか の自己紹介サイト</h1>
+<p id="date">2014.8.16</p>
+<div id="clr">
+<hr>
+</div>
+<nav>
+<ol id="global_navi">
+<li><a href="#">TOP</a></li>
+<li><a href="profile.html">PROFILE</a></li>
+<li><a href="rutine.html">MY RUTINE</a></li>
+<li><a href="hot.html">HOT</a></li>
+</ol>
+</nav>
+</div>
+
+<div id="wrapper"><!-- ▼wrapper start -->
+<div id="topbox">
+<h4><img id="follow" src="img/icon_follow.gif">TOP│私はこんな要素の人間です</h4>
+<div id="icon">
+<a href="#web"><img src="img/icon_web.gif" alt="icon"></a>
+<a href="#english"><img src="img/icon_english.gif" alt="icon"></a>
+<a href="#pizza"><img src="img/icon_pizza.gif" alt="icon"></a>
+<a href="#turtle"><img src="img/icon_turtle.gif" alt="icon"></a>
+<a href="#drawing"><img src="img/icon_drawing.gif" alt="icon"></a>
+<a href="#clarinet"><img src="img/icon_clarinet.gif" alt="icon"></a>
+</div>
+<img src="img/web.jpg" alt="web" id="photo">
+<p id="web"><img src="img/icon_double_100.gif"><strong>　Web</strong><br>今一番やりたいこと。デジハリに入って初めて触ったけれど、これは楽しいぞ！と思った。ただ一回休むとついていけなさそうなので、熱が出て授業を受けたこともある。後期もwebⅡをとり、どんどん力をつけたい。</p>
+<img src="img/english.jpg" alt="english" id="photo">
+<p id="english"><img src="img/icon_double_100.gif"><strong>　English</strong><br>生涯かけてやりたいこと。この学校にはたくさんの留学生がいて、あるネパールの子と英語でコミュニケーションをとれるようになったことがうれしくて仕方ない。まだうまくいかないところもあるため、一生懸命勉強したい。</p>
+<img src="img/pizza.jpg" alt="pizza" id="photo">
+<p id="pizza"><img src="img/icon_double_100.gif"><strong>　Pizza</strong><br>高校入学しすぐに始めた初めてのアルバイトは、ピザデリバリーショップだった。高校中退してからも続けたため、無駄に２年半のキャリアがあり、無駄にピザがつくれる。</p>
+<img src="img/turtle.jpg" alt="turtle" id="photo">
+<p id="turtle"><img src="img/icon_double_100.gif"><strong>　Turtles</strong><br>ペット。二匹の亀を、小学五年生のときから飼っている。何も考えていない感じが愛らしく、特に疲れているときは彼らをただ眺めているとなんだかすっきりする。</p>
+<img src="img/drawing.jpg" alt="drawing" id="photo">
+<p id="drawing"><img src="img/icon_double_100.gif"><strong>　Illust</strong><br>小さいころから、絵を描くことがずっと好き。特にキャラクターや人の絵が好きで、暇があれば落書きをしていた。今は時間があまり作れないけれど、LINEスタンプ制作などやってみたいと考えている。</p>
+<img id="photo" src="img/clarinet.jpg" alt="clarinet">
+<p id="clarinet"><img src="img/icon_double_100.gif"><strong>　Music</strong><br>中学校の頃に吹奏楽部に所属していて、クラリネットを吹いていた。日本各地のお土産屋さんにある謎の安い笛を集めるのが好き。J-popはあまりよく知らないが、iPodにやたらユーミンとか入っている。</p>
+</div>
+</div><!-- △wrapper end -->
+<div id="clr">
+<hr>
+</div>
+<div id="footer">
+<nav>
+<ol id="global_navi">
+<li><a href="index.html">TOP</a></li>
+<li><a href="profile.html">PROFILE</a></li>
+<li><a href="rutine.html">MY RUTINE</a></li>
+<li><a href="hot.html">HOT</a></li>
+</ol>
+</nav>
+<address>&copy; 2014 Y.Umeki All rights reserved.</address>
+</div>
+
+</body>
+
+</html>

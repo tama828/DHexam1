@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* ─────────────────────── body */
+
+h3 {
+font-size: large;
+margin :5% 0;
+}
+
+h4 {
+font-size: 15px;
+padding: 0.5em;
+clear: both;
+}
+
+h4 img {
+width: 15px;
+padding: 0 1em;
+}
+
+#wrapper p {
+font-size: small;
+width: 400px;
+line-height: 2em;
+height: 275px;
+margin: 5%;
+float: left;
+}
+
+.captions {
+float: left;
+margin: 5%;
+}
+
+.captions h5 {
+text-align: center;
+}
+
+#wrapper{
+position: relative;
+overflow: hidden;
+}
+
+small {
+font-size: x-small;
+}
+
+#wrapper p a {
+color: #599;
+}

@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+/* ──────────────────────Layout CSS */
+
+body {
+background: url(../img/bg.gif);
+}
+
+a {
+color: #292727;
+}
+
+a:hover {
+color: #898787;
+}
+
+/* ────────────────────── wrapper */
+
+#wrapper {
+background: #f0f0f0;
+margin: 0 auto;	
+padding: 0 3%;	
+box-shadow: 0 0 0.5em rgba(0,0,0,0.4);
+width: 80%;
+max-width: 1024px;
+position:relative;
+overflow: hidden;
+}
+
+
+
+/* ────────────────────── header */
+
+#header {
+background: #69c;
+height: 300px;
+width: 80%;
+max-width: 1024px;
+margin: 0 auto;	
+padding: 0 3%;	
+box-shadow: 0 0 0.5em rgba(0,0,0,0.4);
+position: relative;
+overflow: hidden;
+}
+
+#logo {
+width: 120px;
+margin: 20px 20px 20px 20px;
+float: left;
+}
+
+#header h2 {
+float: right;
+color: #fff;
+font-size: large;
+margin: 30px;
+}
+
+#header h1 {
+font-family: serif;
+color: #fff;
+font-size: 50px;
+text-align: center;
+clear: both;
+}
+
+#date{
+color: #fff;
+float: right;
+text-align: right;
+margin: 10px 30px;
+position: relative;
+overflow: hidden;
+}
+
+#header nav {
+clear: both;
+margin: 0 auto;
+position: relative;
+overflow: hidden;
+padding: 1%;
+width: 60%;
+margin-left: 20%;
+}
+
+#global_navi {
+position: relative;
+overflow: hidden;
+margin: 0 auto;
+text-align: center;
+}
+
+#header ol {
+position: relative;
+overflow: hidden;
+}
+
+#header ol li {
+font-size: x-large;
+float: left;
+border-right: 3px solid #fff;
+line-height: 1.5em;
+}
+
+#header ol li:nth-child(1) {
+border-left: 3px solid #fff;
+}
+
+#header ol li a, 
+#header ol li#home {
+color: #fff;
+padding: 0 1em;
+display: block;
+}
+
+#header ol li a:hover { 
+color: #fff;
+background: #6cf;
+}
+
+/* ────────────────────── body */
+
+h3 {
+font-size: large;
+margin :5% 0;
+}
+
+h4 {
+font-size: 15px;
+padding: 0.5em;
+clear: both;
+}
+
+h4 img {
+width: 15px;
+padding: 0 1em;
+}
+
+#icon{
+text-align: center;
+}
+
+#icon img{
+margin: 50px;
+}
+
+p#web, p#english, p#pizza, p#clarinet, p#drawing, p#turtle {
+font-size: small;
+width: 350px;
+line-height: 2em;
+margin: 100px 0 100px 5%;
+float:left;
+}
+
+
+strong {
+font-size: large;
+}
+
+#photo {
+margin: 10% 5%;
+crear: both;
+}
+/* ──────────────── top */
+#icon {
+width:  80%;
+margin: auto;
+}
+
+#topbox {
+width: 80%;
+margin: auto;
+position: relative;
+overflow: hidden;
+}
+
+/* ──────────────────── rutine */
+
+table {
+max-width: 800px;
+padding: 10% 0;
+width:80%;
+margin: auto;
+}
+
+
+td, tr{
+text-alighn: center;
+width: 15%;
+padding: 1%;
+}
+td, tr {
+border-right: dotted 2px #69c;
+border-bottom: dotted 2px #69c; 
+}
+
+#clr hr{
+display: none;
+}
+
+#clr {
+clear: both;
+}
+
+/* ──────────────────── footer */
+
+#footer{
+background: #69c;
+max-width: 1024px;
+box-shadow: 0 0 0.5em rgba(0,0,0,0.4);
+padding: 1% 3%;
+margin: auto;
+width: 80%;
+position:relative;
+overflow: hidden;
+}
+
+#footer ol {
+padding: 0 2%;
+position:relative;
+overflow: hidden;
+text-align:center;
+margin-left: 30%;
+width: 40%;
+
+}
+
+#footer ol li {
+texit-align: center;
+color: #fff;
+float: left;
+border-right: 3px solid #fff;
+line-height: 1.5em;
+position:relative;
+overflow: hidden;
+}
+
+#footer ol li:nth-child(1) {
+border-left: 3px solid #fff;
+}
+
+#footer ol li a {
+color: #fff;
+padding: 0 1em;
+display: block;
+}
+
+#footer ol li a:hover { 
+color: #fff;
+background: #6cf;
+}
+
+
+#footer address{
+text-align: center;
+color: #fff;
+padding: 10% 30% 2%;
+clear: both;
+}
+
+img{
+background-color: none;
+}
